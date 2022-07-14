@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Міжнародні ПЕРЕВЕЗЕННЯ Україна-Німеччина OR Delivery company Тернопіль</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description” content= "Пасажирські та вантажні перевезення Польща, Чехія, Німеччина з міста Тернопіль">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    
+    <!------------HEADER------------->
+
+    <header id="fix" class="header">
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="name_logo_bus3.png" alt="Logo"></a>
+            <label id="way">УКРАЇНА-НІМЕЧЧИНА<br><span>перевезення</span></label>
+            <div class="callnumber">
+                <a href="tel:+380969542078">&#9990 +38 096 954 2078</a><br>
+                <a href="tel:+4915223039112">&#9990 +49 152 2303 9112</a>
+            </div>
+        </div> 
+        
+        <!------------NAVIGATION------------->
+
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Головна</a>
+                <a href="#routes" onclick="hide();">Маршрути</a>
+                <a href="#documents" onclick="hide();">Документальний супровід</a>
+                <a href="#transportation" onclick="hide();">Вантажні перевезення</a>
+                <a href="#price" onclick="hide();">Ціни</a>
+                <a href="#contacts" onclick="hide();">Контакти</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+        <!------------/NAVIGATION------------->
+
+    </header>
+    <!------------/HEADER------------->
+
+    <main>
+        <div class="description">
+            <p>Якщо Вам необхідно приїхати в Німеччину чи повернутися в Україну, то Ви звернулися за адресою. <span>OR Delivery company</span> гарантує Вам комфортну поїздку з Mersedes-Benz та кваліфікованими водіями з багаторічним досвідом.</p>
+            <p>Ми пропонуємо:</p>
+            <ul>
+                <li>Виїзд щотижня в обидві сторони</li>
+                <li>Підвеземо Вас куди забажаєте</li>
+                <li>А також не забудемо привезти вашу посилку</li>
+                <li>Передачі по всій Україні (Нова пошта)</li>
+                <li>І зробимо все це швидко та надійно</li>
+            </ul>
+        </div>
+        <!------------PHOTO------------->
+
+        <div id="gallery">
+            <div>
+                <div class="photo">
+                <img id="bus0" src="IMG-1.jpg" alt="" >
+                <img id="bus1" src="IMG-2.jpg" alt="">
+                <img id="bus2" src="IMG-3.jpg" alt="">
+                <img id="bus3" src="IMG-4.jpg" alt="">
+                <img id="bus4" src="IMG-5.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <img id="prev" src="arrow_left.png">
+                    <img id="next" src="arrow_right.png">
+                </div>
+             </div>            
+        </div>
+        <!------------/PHOTO------------->
+
+        
+
+    <!-----------ROUTES------------>
+    <div id="routes">
+        <h1 class="contain">Маршрути</h1><br>
+        <select id="myWay" onchange="fun1()"> <!--реагує на вибраний список routes.js-->
+            <option value="0">Оберіть маршрут</option>
+            <option value="1">Тернопіль-Краків-Берлін</option>
+            <option value="2">Тернопіль-Прага-Мюнхен</option>
+        </select>
+        <div class="maps"> 
+            <iframe id="way1"
+                src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d5147899.140799724!2d15.005181335646366!
+                3d50.94919168921355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x473036ad4b82ce75%3A0xc484a447edb154e8!
+                2z0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LA!3m2!1d49.553517!
+                2d25.594766999999997!4m5!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2z0JLQsNGA0YjQsNCy0LAsINCf0L7Qu9GM0YnQsA!3m2!1d52.2296756!
+                2d21.012228699999998!4m5!1s0x47a84e373f035901%3A0x42120465b5e3b70!2z0JHQtdGA0LvRltC9LCDQndGW0LzQtdGH0YfQuNC90LA!3m2!
+                1d52.520006599999995!2d13.404954!5e0!3m2!1suk!2sro!4v1652462978252!5m2!1suk!2sro"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="maps"> 
+            <iframe id="way2"
+                src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d5169559.077258762!2d15.005098386522164!3d50.7533479486254!
+                2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x473036ad4b82ce75%3A0xc484a447edb154e8!
+                2z0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LA!3m2!1d49.553517!
+                2d25.594766999999997!4m5!1s0x470b939c0970798b%3A0x400af0f66164090!2z0J_RgNCw0LPQsCwg0KfQtdGF0ZbRjw!3m2!1d50.075538099999996!
+                2d14.4378005!4m5!1s0x47a84e373f035901%3A0x42120465b5e3b70!2z0JHQtdGA0LvRltC9LCDQndGW0LzQtdGH0YfQuNC90LA!3m2!1d52.520006599999995!
+                2d13.404954!5e0!3m2!1suk!2sro!4v1652463181016!5m2!1suk!2sro"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="grafic">Виїзд з України - п'ятниця<br>Виїзд з Німеччини - неділя</p>
+    </div>
+    <!-----------/ROUTES------------>
+    <!----------DOCUMENTS----------->
+    <div id="documents">
+        <h1 class="contain">Документальний супровід</h1>
+        <h2>З нами Ви отримуєте:</h2>
+        <ul>
+            <li>Міжнародні вантажо-пасажирські перевезення автомобільним транспортом</li>
+            <li>Документальний супровід</li>
+            <li>Комфортний трансфер з досвідченими водіями</li>
+            <li>Контроль на всіх етапах перевезення</li>
+            <li>Цілодобова інформаційна підтримка</li>
+            <li>Регулярна та якісна доставка з Європи та України</li>
+        </ul>
+
+    
+    </div>
+    <!----------/DOCUMENTS----------->
+    <!--------TRANSPORTATION--------->
+    <div id="transportation">
+    <h1 class="contain">Вантажні перевезення</h1>
+    <p>Доставка посилок по Україні через <a href="https://novaposhta.ua/" target="_blank"><img class="nova_poshta" src="np.png" alt="Nova poshta"></a></p><br>
+    <p>Отримувач: Оленин Олена, тел.: +38(098)9593956, м. Тернопіль, відділення №11/№17</p><br>
+    <iframe src="https://novaposhta.ua/" title="Нова пошта" width="100%" height="450px"></iframe>
+    </div>
+    <!--------/TRANSPORTATION--------->
+    <!-----------PRICE------------>
+    <div id="price">
+    <h1 class="contain">Ціни</h1><br>
+    <p>Вартість проїзду пасажирів залежить від маршруту і узгоджується індивідуально.</p>
+    <p>Вартість доставки вантажу становить 1.5 євро/кг та може змінюватися від багатьох факторів: вага, об'єм, тип вантажу і додаткові особливості перевезення, 
+        які клієнт повинен повідомити заздалегідь на етапі узгодження умов і вартості послуг.</p>
+    <br>
+    </div>
+    <!-----------/PRICE------------>
+
+
+
+
+
+
+    </main>
+
+    <!------------FOOTER------------->
+    <footer id="contacts">
+       <!---->
+        <div class="social">
+            <div>
+            <p>+38 096 954 2078</p>
+            <a href="viber://chat?number=%2B380969542078"><img class="social_icon" src="icons8-viber-64.png" alt=""></a>          
+            <a href="https://api.whatsapp.com/send?phone=%2B380969542078"><img class="social_icon" src="icons8-whatsapp-64.png" alt=""></a>
+            <a href="tel:+380969542078"><img class="social_icon"  src="icons8-phone-64.png" alt=""></a>
+            </div>
+            <div>
+            <p>+49 152 2303 9112</p>
+            <a href="tel:+4915223039112"><img class="social_icon" src="icons8-phone-64.png" alt=""></a>
+            </div>
+            <div>
+            <p>Слідкуй за нами: </p>
+            <a href="https://www.facebook.com/PereviznykOlenyn" target="_blank"><img class="social_icon"
+                    src="icon-facebook.png" alt=""></a>
+            </div>
+            <div>
+            <p>pereviznuk-olenunⒸ2022<p>
+                </div>
+            </div>
+    </footer>
+    <!------------/FOOTER------------->
+
+    <script src="script.js"></script>
+    <script src="hidden.js"></script>
+    <script src="gallery.js"></script>
+    <script src="routes.js"></script>
+    
+</body>
+</html>
